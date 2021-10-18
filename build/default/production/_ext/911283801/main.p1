@@ -1,0 +1,1492 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"2320 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2320:     struct {
+[s S103 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S103 . RA0 RA1 RA2 RA3 RA4 RA5 RA6 ]
+"2329
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2329:     struct {
+[s S104 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S104 . AN0 AN1 AN2 AN3 T0CKI AN4 OSC2 ]
+"2338
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2338:     struct {
+[s S105 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S105 . . VREFM VREFP . LVDIN ]
+"2345
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2345:     struct {
+[s S106 :5 `uc 1 :1 `uc 1 ]
+[n S106 . . HLVDIN ]
+"2349
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2349:     struct {
+[s S107 :1 `uc 1 ]
+[n S107 . ULPWUIN ]
+"2319
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2319: typedef union {
+[u S102 `S103 1 `S104 1 `S105 1 `S106 1 `S107 1 ]
+[n S102 . . . . . . ]
+"2353
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2353: extern volatile PORTAbits_t PORTAbits __attribute__((address(0xF80)));
+[v _PORTAbits `VS102 ~T0 @X0 0 e@3968 ]
+"8139
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8139: extern volatile unsigned short TMR0 __attribute__((address(0xFD6)));
+[v _TMR0 `Vus ~T0 @X0 0 e@4054 ]
+"8588
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8588:     struct {
+[s S362 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S362 . RBIF INT0IF TMR0IF RBIE INT0IE TMR0IE PEIE_GIEL GIE_GIEH ]
+"8598
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8598:     struct {
+[s S363 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S363 . . INT0F T0IF . INT0E T0IE PEIE GIE ]
+"8608
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8608:     struct {
+[s S364 :6 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S364 . . GIEL GIEH ]
+"8587
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8587: typedef union {
+[u S361 `S362 1 `S363 1 `S364 1 ]
+[n S361 . . . . ]
+"8614
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8614: extern volatile INTCONbits_t INTCONbits __attribute__((address(0xFF2)));
+[v _INTCONbits `VS361 ~T0 @X0 0 e@4082 ]
+"8075
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8075:     struct {
+[s S349 :3 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S349 . T0PS PSA T0SE T0CS T08BIT TMR0ON ]
+"8083
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8083:     struct {
+[s S350 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S350 . T0PS0 T0PS1 T0PS2 ]
+"8074
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8074: typedef union {
+[u S348 `S349 1 `S350 1 ]
+[n S348 . . . ]
+"8089
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8089: extern volatile T0CONbits_t T0CONbits __attribute__((address(0xFD5)));
+[v _T0CONbits `VS348 ~T0 @X0 0 e@4053 ]
+[p mainexit ]
+"6581
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 6581: extern volatile unsigned char ADCON1 __attribute__((address(0xFC1)));
+[v _ADCON1 `Vuc ~T0 @X0 0 e@4033 ]
+"3427
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 3427: extern volatile unsigned char TRISA __attribute__((address(0xF92)));
+[v _TRISA `Vuc ~T0 @X0 0 e@3986 ]
+"3625
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 3625: extern volatile unsigned char TRISB __attribute__((address(0xF93)));
+[v _TRISB `Vuc ~T0 @X0 0 e@3987 ]
+"2459
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2459:     struct {
+[s S109 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S109 . RB0 RB1 RB2 RB3 RB4 RB5 RB6 RB7 ]
+"2469
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2469:     struct {
+[s S110 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S110 . INT0 INT1 INT2 . PGM PGC PGD ]
+"2478
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2478:     struct {
+[s S111 :3 `uc 1 :1 `uc 1 ]
+[n S111 . . CCP2_PA2 ]
+"2458
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2458: typedef union {
+[u S108 `S109 1 `S110 1 `S111 1 ]
+[n S108 . . . . ]
+"2483
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2483: extern volatile PORTBbits_t PORTBbits __attribute__((address(0xF81)));
+[v _PORTBbits `VS108 ~T0 @X0 0 e@3969 ]
+"54 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 54: __asm("SPPDATA equ 0F62h");
+[; <" SPPDATA equ 0F62h ;# ">
+"74
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 74: __asm("SPPCFG equ 0F63h");
+[; <" SPPCFG equ 0F63h ;# ">
+"151
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 151: __asm("SPPEPS equ 0F64h");
+[; <" SPPEPS equ 0F64h ;# ">
+"225
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 225: __asm("SPPCON equ 0F65h");
+[; <" SPPCON equ 0F65h ;# ">
+"251
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 251: __asm("UFRM equ 0F66h");
+[; <" UFRM equ 0F66h ;# ">
+"258
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 258: __asm("UFRML equ 0F66h");
+[; <" UFRML equ 0F66h ;# ">
+"336
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 336: __asm("UFRMH equ 0F67h");
+[; <" UFRMH equ 0F67h ;# ">
+"376
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 376: __asm("UIR equ 0F68h");
+[; <" UIR equ 0F68h ;# ">
+"432
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 432: __asm("UIE equ 0F69h");
+[; <" UIE equ 0F69h ;# ">
+"488
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 488: __asm("UEIR equ 0F6Ah");
+[; <" UEIR equ 0F6Ah ;# ">
+"539
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 539: __asm("UEIE equ 0F6Bh");
+[; <" UEIE equ 0F6Bh ;# ">
+"590
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 590: __asm("USTAT equ 0F6Ch");
+[; <" USTAT equ 0F6Ch ;# ">
+"650
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 650: __asm("UCON equ 0F6Dh");
+[; <" UCON equ 0F6Dh ;# ">
+"701
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 701: __asm("UADDR equ 0F6Eh");
+[; <" UADDR equ 0F6Eh ;# ">
+"765
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 765: __asm("UCFG equ 0F6Fh");
+[; <" UCFG equ 0F6Fh ;# ">
+"844
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 844: __asm("UEP0 equ 0F70h");
+[; <" UEP0 equ 0F70h ;# ">
+"952
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 952: __asm("UEP1 equ 0F71h");
+[; <" UEP1 equ 0F71h ;# ">
+"1060
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 1060: __asm("UEP2 equ 0F72h");
+[; <" UEP2 equ 0F72h ;# ">
+"1168
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 1168: __asm("UEP3 equ 0F73h");
+[; <" UEP3 equ 0F73h ;# ">
+"1276
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 1276: __asm("UEP4 equ 0F74h");
+[; <" UEP4 equ 0F74h ;# ">
+"1384
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 1384: __asm("UEP5 equ 0F75h");
+[; <" UEP5 equ 0F75h ;# ">
+"1492
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 1492: __asm("UEP6 equ 0F76h");
+[; <" UEP6 equ 0F76h ;# ">
+"1600
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 1600: __asm("UEP7 equ 0F77h");
+[; <" UEP7 equ 0F77h ;# ">
+"1708
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 1708: __asm("UEP8 equ 0F78h");
+[; <" UEP8 equ 0F78h ;# ">
+"1784
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 1784: __asm("UEP9 equ 0F79h");
+[; <" UEP9 equ 0F79h ;# ">
+"1860
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 1860: __asm("UEP10 equ 0F7Ah");
+[; <" UEP10 equ 0F7Ah ;# ">
+"1936
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 1936: __asm("UEP11 equ 0F7Bh");
+[; <" UEP11 equ 0F7Bh ;# ">
+"2012
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2012: __asm("UEP12 equ 0F7Ch");
+[; <" UEP12 equ 0F7Ch ;# ">
+"2088
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2088: __asm("UEP13 equ 0F7Dh");
+[; <" UEP13 equ 0F7Dh ;# ">
+"2164
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2164: __asm("UEP14 equ 0F7Eh");
+[; <" UEP14 equ 0F7Eh ;# ">
+"2240
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2240: __asm("UEP15 equ 0F7Fh");
+[; <" UEP15 equ 0F7Fh ;# ">
+"2316
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2316: __asm("PORTA equ 0F80h");
+[; <" PORTA equ 0F80h ;# ">
+"2455
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2455: __asm("PORTB equ 0F81h");
+[; <" PORTB equ 0F81h ;# ">
+"2565
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2565: __asm("PORTC equ 0F82h");
+[; <" PORTC equ 0F82h ;# ">
+"2707
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2707: __asm("PORTD equ 0F83h");
+[; <" PORTD equ 0F83h ;# ">
+"2828
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2828: __asm("PORTE equ 0F84h");
+[; <" PORTE equ 0F84h ;# ">
+"2975
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2975: __asm("LATA equ 0F89h");
+[; <" LATA equ 0F89h ;# ">
+"3075
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 3075: __asm("LATB equ 0F8Ah");
+[; <" LATB equ 0F8Ah ;# ">
+"3187
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 3187: __asm("LATC equ 0F8Bh");
+[; <" LATC equ 0F8Bh ;# ">
+"3265
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 3265: __asm("LATD equ 0F8Ch");
+[; <" LATD equ 0F8Ch ;# ">
+"3377
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 3377: __asm("LATE equ 0F8Dh");
+[; <" LATE equ 0F8Dh ;# ">
+"3429
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 3429: __asm("TRISA equ 0F92h");
+[; <" TRISA equ 0F92h ;# ">
+"3434
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 3434: __asm("DDRA equ 0F92h");
+[; <" DDRA equ 0F92h ;# ">
+"3627
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 3627: __asm("TRISB equ 0F93h");
+[; <" TRISB equ 0F93h ;# ">
+"3632
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 3632: __asm("DDRB equ 0F93h");
+[; <" DDRB equ 0F93h ;# ">
+"3849
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 3849: __asm("TRISC equ 0F94h");
+[; <" TRISC equ 0F94h ;# ">
+"3854
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 3854: __asm("DDRC equ 0F94h");
+[; <" DDRC equ 0F94h ;# ">
+"4003
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 4003: __asm("TRISD equ 0F95h");
+[; <" TRISD equ 0F95h ;# ">
+"4008
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 4008: __asm("DDRD equ 0F95h");
+[; <" DDRD equ 0F95h ;# ">
+"4225
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 4225: __asm("TRISE equ 0F96h");
+[; <" TRISE equ 0F96h ;# ">
+"4230
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 4230: __asm("DDRE equ 0F96h");
+[; <" DDRE equ 0F96h ;# ">
+"4327
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 4327: __asm("OSCTUNE equ 0F9Bh");
+[; <" OSCTUNE equ 0F9Bh ;# ">
+"4386
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 4386: __asm("PIE1 equ 0F9Dh");
+[; <" PIE1 equ 0F9Dh ;# ">
+"4470
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 4470: __asm("PIR1 equ 0F9Eh");
+[; <" PIR1 equ 0F9Eh ;# ">
+"4554
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 4554: __asm("IPR1 equ 0F9Fh");
+[; <" IPR1 equ 0F9Fh ;# ">
+"4638
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 4638: __asm("PIE2 equ 0FA0h");
+[; <" PIE2 equ 0FA0h ;# ">
+"4709
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 4709: __asm("PIR2 equ 0FA1h");
+[; <" PIR2 equ 0FA1h ;# ">
+"4780
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 4780: __asm("IPR2 equ 0FA2h");
+[; <" IPR2 equ 0FA2h ;# ">
+"4851
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 4851: __asm("EECON1 equ 0FA6h");
+[; <" EECON1 equ 0FA6h ;# ">
+"4917
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 4917: __asm("EECON2 equ 0FA7h");
+[; <" EECON2 equ 0FA7h ;# ">
+"4924
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 4924: __asm("EEDATA equ 0FA8h");
+[; <" EEDATA equ 0FA8h ;# ">
+"4931
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 4931: __asm("EEADR equ 0FA9h");
+[; <" EEADR equ 0FA9h ;# ">
+"4938
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 4938: __asm("RCSTA equ 0FABh");
+[; <" RCSTA equ 0FABh ;# ">
+"4943
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 4943: __asm("RCSTA1 equ 0FABh");
+[; <" RCSTA1 equ 0FABh ;# ">
+"5148
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 5148: __asm("TXSTA equ 0FACh");
+[; <" TXSTA equ 0FACh ;# ">
+"5153
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 5153: __asm("TXSTA1 equ 0FACh");
+[; <" TXSTA1 equ 0FACh ;# ">
+"5404
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 5404: __asm("TXREG equ 0FADh");
+[; <" TXREG equ 0FADh ;# ">
+"5409
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 5409: __asm("TXREG1 equ 0FADh");
+[; <" TXREG1 equ 0FADh ;# ">
+"5416
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 5416: __asm("RCREG equ 0FAEh");
+[; <" RCREG equ 0FAEh ;# ">
+"5421
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 5421: __asm("RCREG1 equ 0FAEh");
+[; <" RCREG1 equ 0FAEh ;# ">
+"5428
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 5428: __asm("SPBRG equ 0FAFh");
+[; <" SPBRG equ 0FAFh ;# ">
+"5433
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 5433: __asm("SPBRG1 equ 0FAFh");
+[; <" SPBRG1 equ 0FAFh ;# ">
+"5440
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 5440: __asm("SPBRGH equ 0FB0h");
+[; <" SPBRGH equ 0FB0h ;# ">
+"5447
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 5447: __asm("T3CON equ 0FB1h");
+[; <" T3CON equ 0FB1h ;# ">
+"5568
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 5568: __asm("TMR3 equ 0FB2h");
+[; <" TMR3 equ 0FB2h ;# ">
+"5575
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 5575: __asm("TMR3L equ 0FB2h");
+[; <" TMR3L equ 0FB2h ;# ">
+"5582
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 5582: __asm("TMR3H equ 0FB3h");
+[; <" TMR3H equ 0FB3h ;# ">
+"5589
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 5589: __asm("CMCON equ 0FB4h");
+[; <" CMCON equ 0FB4h ;# ">
+"5679
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 5679: __asm("CVRCON equ 0FB5h");
+[; <" CVRCON equ 0FB5h ;# ">
+"5764
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 5764: __asm("ECCP1AS equ 0FB6h");
+[; <" ECCP1AS equ 0FB6h ;# ">
+"5769
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 5769: __asm("CCP1AS equ 0FB6h");
+[; <" CCP1AS equ 0FB6h ;# ">
+"5926
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 5926: __asm("ECCP1DEL equ 0FB7h");
+[; <" ECCP1DEL equ 0FB7h ;# ">
+"5931
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 5931: __asm("CCP1DEL equ 0FB7h");
+[; <" CCP1DEL equ 0FB7h ;# ">
+"6064
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 6064: __asm("BAUDCON equ 0FB8h");
+[; <" BAUDCON equ 0FB8h ;# ">
+"6069
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 6069: __asm("BAUDCTL equ 0FB8h");
+[; <" BAUDCTL equ 0FB8h ;# ">
+"6244
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 6244: __asm("CCP2CON equ 0FBAh");
+[; <" CCP2CON equ 0FBAh ;# ">
+"6308
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 6308: __asm("CCPR2 equ 0FBBh");
+[; <" CCPR2 equ 0FBBh ;# ">
+"6315
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 6315: __asm("CCPR2L equ 0FBBh");
+[; <" CCPR2L equ 0FBBh ;# ">
+"6322
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 6322: __asm("CCPR2H equ 0FBCh");
+[; <" CCPR2H equ 0FBCh ;# ">
+"6329
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 6329: __asm("CCP1CON equ 0FBDh");
+[; <" CCP1CON equ 0FBDh ;# ">
+"6334
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 6334: __asm("ECCP1CON equ 0FBDh");
+[; <" ECCP1CON equ 0FBDh ;# ">
+"6491
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 6491: __asm("CCPR1 equ 0FBEh");
+[; <" CCPR1 equ 0FBEh ;# ">
+"6498
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 6498: __asm("CCPR1L equ 0FBEh");
+[; <" CCPR1L equ 0FBEh ;# ">
+"6505
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 6505: __asm("CCPR1H equ 0FBFh");
+[; <" CCPR1H equ 0FBFh ;# ">
+"6512
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 6512: __asm("ADCON2 equ 0FC0h");
+[; <" ADCON2 equ 0FC0h ;# ">
+"6583
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 6583: __asm("ADCON1 equ 0FC1h");
+[; <" ADCON1 equ 0FC1h ;# ">
+"6668
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 6668: __asm("ADCON0 equ 0FC2h");
+[; <" ADCON0 equ 0FC2h ;# ">
+"6787
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 6787: __asm("ADRES equ 0FC3h");
+[; <" ADRES equ 0FC3h ;# ">
+"6794
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 6794: __asm("ADRESL equ 0FC3h");
+[; <" ADRESL equ 0FC3h ;# ">
+"6801
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 6801: __asm("ADRESH equ 0FC4h");
+[; <" ADRESH equ 0FC4h ;# ">
+"6808
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 6808: __asm("SSPCON2 equ 0FC5h");
+[; <" SSPCON2 equ 0FC5h ;# ">
+"6870
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 6870: __asm("SSPCON1 equ 0FC6h");
+[; <" SSPCON1 equ 0FC6h ;# ">
+"6940
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 6940: __asm("SSPSTAT equ 0FC7h");
+[; <" SSPSTAT equ 0FC7h ;# ">
+"7188
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 7188: __asm("SSPADD equ 0FC8h");
+[; <" SSPADD equ 0FC8h ;# ">
+"7195
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 7195: __asm("SSPBUF equ 0FC9h");
+[; <" SSPBUF equ 0FC9h ;# ">
+"7202
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 7202: __asm("T2CON equ 0FCAh");
+[; <" T2CON equ 0FCAh ;# ">
+"7300
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 7300: __asm("PR2 equ 0FCBh");
+[; <" PR2 equ 0FCBh ;# ">
+"7305
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 7305: __asm("MEMCON equ 0FCBh");
+[; <" MEMCON equ 0FCBh ;# ">
+"7410
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 7410: __asm("TMR2 equ 0FCCh");
+[; <" TMR2 equ 0FCCh ;# ">
+"7417
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 7417: __asm("T1CON equ 0FCDh");
+[; <" T1CON equ 0FCDh ;# ">
+"7520
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 7520: __asm("TMR1 equ 0FCEh");
+[; <" TMR1 equ 0FCEh ;# ">
+"7527
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 7527: __asm("TMR1L equ 0FCEh");
+[; <" TMR1L equ 0FCEh ;# ">
+"7534
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 7534: __asm("TMR1H equ 0FCFh");
+[; <" TMR1H equ 0FCFh ;# ">
+"7541
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 7541: __asm("RCON equ 0FD0h");
+[; <" RCON equ 0FD0h ;# ">
+"7690
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 7690: __asm("WDTCON equ 0FD1h");
+[; <" WDTCON equ 0FD1h ;# ">
+"7718
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 7718: __asm("HLVDCON equ 0FD2h");
+[; <" HLVDCON equ 0FD2h ;# ">
+"7723
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 7723: __asm("LVDCON equ 0FD2h");
+[; <" LVDCON equ 0FD2h ;# ">
+"7988
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 7988: __asm("OSCCON equ 0FD3h");
+[; <" OSCCON equ 0FD3h ;# ">
+"8071
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8071: __asm("T0CON equ 0FD5h");
+[; <" T0CON equ 0FD5h ;# ">
+"8141
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8141: __asm("TMR0 equ 0FD6h");
+[; <" TMR0 equ 0FD6h ;# ">
+"8148
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8148: __asm("TMR0L equ 0FD6h");
+[; <" TMR0L equ 0FD6h ;# ">
+"8155
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8155: __asm("TMR0H equ 0FD7h");
+[; <" TMR0H equ 0FD7h ;# ">
+"8162
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8162: __asm("STATUS equ 0FD8h");
+[; <" STATUS equ 0FD8h ;# ">
+"8233
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8233: __asm("FSR2 equ 0FD9h");
+[; <" FSR2 equ 0FD9h ;# ">
+"8240
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8240: __asm("FSR2L equ 0FD9h");
+[; <" FSR2L equ 0FD9h ;# ">
+"8247
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8247: __asm("FSR2H equ 0FDAh");
+[; <" FSR2H equ 0FDAh ;# ">
+"8254
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8254: __asm("PLUSW2 equ 0FDBh");
+[; <" PLUSW2 equ 0FDBh ;# ">
+"8261
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8261: __asm("PREINC2 equ 0FDCh");
+[; <" PREINC2 equ 0FDCh ;# ">
+"8268
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8268: __asm("POSTDEC2 equ 0FDDh");
+[; <" POSTDEC2 equ 0FDDh ;# ">
+"8275
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8275: __asm("POSTINC2 equ 0FDEh");
+[; <" POSTINC2 equ 0FDEh ;# ">
+"8282
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8282: __asm("INDF2 equ 0FDFh");
+[; <" INDF2 equ 0FDFh ;# ">
+"8289
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8289: __asm("BSR equ 0FE0h");
+[; <" BSR equ 0FE0h ;# ">
+"8296
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8296: __asm("FSR1 equ 0FE1h");
+[; <" FSR1 equ 0FE1h ;# ">
+"8303
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8303: __asm("FSR1L equ 0FE1h");
+[; <" FSR1L equ 0FE1h ;# ">
+"8310
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8310: __asm("FSR1H equ 0FE2h");
+[; <" FSR1H equ 0FE2h ;# ">
+"8317
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8317: __asm("PLUSW1 equ 0FE3h");
+[; <" PLUSW1 equ 0FE3h ;# ">
+"8324
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8324: __asm("PREINC1 equ 0FE4h");
+[; <" PREINC1 equ 0FE4h ;# ">
+"8331
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8331: __asm("POSTDEC1 equ 0FE5h");
+[; <" POSTDEC1 equ 0FE5h ;# ">
+"8338
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8338: __asm("POSTINC1 equ 0FE6h");
+[; <" POSTINC1 equ 0FE6h ;# ">
+"8345
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8345: __asm("INDF1 equ 0FE7h");
+[; <" INDF1 equ 0FE7h ;# ">
+"8352
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8352: __asm("WREG equ 0FE8h");
+[; <" WREG equ 0FE8h ;# ">
+"8359
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8359: __asm("FSR0 equ 0FE9h");
+[; <" FSR0 equ 0FE9h ;# ">
+"8366
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8366: __asm("FSR0L equ 0FE9h");
+[; <" FSR0L equ 0FE9h ;# ">
+"8373
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8373: __asm("FSR0H equ 0FEAh");
+[; <" FSR0H equ 0FEAh ;# ">
+"8380
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8380: __asm("PLUSW0 equ 0FEBh");
+[; <" PLUSW0 equ 0FEBh ;# ">
+"8387
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8387: __asm("PREINC0 equ 0FECh");
+[; <" PREINC0 equ 0FECh ;# ">
+"8394
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8394: __asm("POSTDEC0 equ 0FEDh");
+[; <" POSTDEC0 equ 0FEDh ;# ">
+"8401
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8401: __asm("POSTINC0 equ 0FEEh");
+[; <" POSTINC0 equ 0FEEh ;# ">
+"8408
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8408: __asm("INDF0 equ 0FEFh");
+[; <" INDF0 equ 0FEFh ;# ">
+"8415
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8415: __asm("INTCON3 equ 0FF0h");
+[; <" INTCON3 equ 0FF0h ;# ">
+"8507
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8507: __asm("INTCON2 equ 0FF1h");
+[; <" INTCON2 equ 0FF1h ;# ">
+"8584
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8584: __asm("INTCON equ 0FF2h");
+[; <" INTCON equ 0FF2h ;# ">
+"8701
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8701: __asm("PROD equ 0FF3h");
+[; <" PROD equ 0FF3h ;# ">
+"8708
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8708: __asm("PRODL equ 0FF3h");
+[; <" PRODL equ 0FF3h ;# ">
+"8715
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8715: __asm("PRODH equ 0FF4h");
+[; <" PRODH equ 0FF4h ;# ">
+"8722
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8722: __asm("TABLAT equ 0FF5h");
+[; <" TABLAT equ 0FF5h ;# ">
+"8731
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8731: __asm("TBLPTR equ 0FF6h");
+[; <" TBLPTR equ 0FF6h ;# ">
+"8738
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8738: __asm("TBLPTRL equ 0FF6h");
+[; <" TBLPTRL equ 0FF6h ;# ">
+"8745
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8745: __asm("TBLPTRH equ 0FF7h");
+[; <" TBLPTRH equ 0FF7h ;# ">
+"8752
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8752: __asm("TBLPTRU equ 0FF8h");
+[; <" TBLPTRU equ 0FF8h ;# ">
+"8761
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8761: __asm("PCLAT equ 0FF9h");
+[; <" PCLAT equ 0FF9h ;# ">
+"8768
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8768: __asm("PC equ 0FF9h");
+[; <" PC equ 0FF9h ;# ">
+"8775
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8775: __asm("PCL equ 0FF9h");
+[; <" PCL equ 0FF9h ;# ">
+"8782
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8782: __asm("PCLATH equ 0FFAh");
+[; <" PCLATH equ 0FFAh ;# ">
+"8789
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8789: __asm("PCLATU equ 0FFBh");
+[; <" PCLATU equ 0FFBh ;# ">
+"8796
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8796: __asm("STKPTR equ 0FFCh");
+[; <" STKPTR equ 0FFCh ;# ">
+"8872
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8872: __asm("TOS equ 0FFDh");
+[; <" TOS equ 0FFDh ;# ">
+"8879
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8879: __asm("TOSL equ 0FFDh");
+[; <" TOSL equ 0FFDh ;# ">
+"8886
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8886: __asm("TOSH equ 0FFEh");
+[; <" TOSH equ 0FFEh ;# ">
+"8893
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8893: __asm("TOSU equ 0FFFh");
+[; <" TOSU equ 0FFFh ;# ">
+"15 ../Practica5.X/main.c
+[; ;../Practica5.X/main.c: 15: char buffer1[8];
+[v _buffer1 `uc ~T0 @X0 -> 8 `i e ]
+"16
+[; ;../Practica5.X/main.c: 16: float distancia = 2;
+[v _distancia `f ~T0 @X0 1 e ]
+[i _distancia
+-> -> 2 `i `f
+]
+"17
+[; ;../Practica5.X/main.c: 17:      int a,b,s;
+[v _a `i ~T0 @X0 1 e ]
+[v _b `i ~T0 @X0 1 e ]
+[v _s `i ~T0 @X0 1 e ]
+"19
+[; ;../Practica5.X/main.c: 19:  void tocar_nota(int duracion, float tfrec){
+[v _tocar_nota `(v ~T0 @X0 1 ef2`i`f ]
+{
+[e :U _tocar_nota ]
+[v _duracion `i ~T0 @X0 1 r1 ]
+[v _tfrec `f ~T0 @X0 1 r2 ]
+[f ]
+"22
+[; ;../Practica5.X/main.c: 22:      duracion = duracion/tfrec;
+[e = _duracion -> / -> _duracion `f _tfrec `i ]
+"23
+[; ;../Practica5.X/main.c: 23:      tfrec = 255-((tfrec/2)/(.0002*128));
+[e = _tfrec -> - -> -> 255 `i `d / -> / _tfrec -> -> 2 `i `f `d * .0.0002 -> -> 128 `i `d `f ]
+"25
+[; ;../Practica5.X/main.c: 25:        for(b=0;b<duracion;b++){
+{
+[e = _b -> 0 `i ]
+[e $U 373  ]
+[e :U 370 ]
+{
+"27
+[; ;../Practica5.X/main.c: 27:             PORTAbits.RA0 = 1;
+[e = . . _PORTAbits 0 0 -> -> 1 `i `uc ]
+"28
+[; ;../Practica5.X/main.c: 28:            TMR0 = tfrec;
+[e = _TMR0 -> _tfrec `us ]
+"29
+[; ;../Practica5.X/main.c: 29:            while(INTCONbits.TMR0IF==0);
+[e $U 374  ]
+[e :U 375 ]
+[e :U 374 ]
+[e $ == -> . . _INTCONbits 0 2 `i -> 0 `i 375  ]
+[e :U 376 ]
+"30
+[; ;../Practica5.X/main.c: 30:            INTCONbits.TMR0IF=0;
+[e = . . _INTCONbits 0 2 -> -> 0 `i `uc ]
+"32
+[; ;../Practica5.X/main.c: 32:         PORTAbits.RA0=0;
+[e = . . _PORTAbits 0 0 -> -> 0 `i `uc ]
+"33
+[; ;../Practica5.X/main.c: 33:          TMR0 = tfrec;
+[e = _TMR0 -> _tfrec `us ]
+"34
+[; ;../Practica5.X/main.c: 34:          while(INTCONbits.TMR0IF==0);
+[e $U 377  ]
+[e :U 378 ]
+[e :U 377 ]
+[e $ == -> . . _INTCONbits 0 2 `i -> 0 `i 378  ]
+[e :U 379 ]
+"35
+[; ;../Practica5.X/main.c: 35:          INTCONbits.TMR0IF=0;
+[e = . . _INTCONbits 0 2 -> -> 0 `i `uc ]
+"36
+[; ;../Practica5.X/main.c: 36: }
+}
+[e ++ _b -> 1 `i ]
+[e :U 373 ]
+[e $ < _b _duracion 370  ]
+[e :U 371 ]
+}
+"38
+[; ;../Practica5.X/main.c: 38:  }
+[e :UE 369 ]
+}
+"39
+[; ;../Practica5.X/main.c: 39:  void silencio(int duracion, float tfrec){
+[v _silencio `(v ~T0 @X0 1 ef2`i`f ]
+{
+[e :U _silencio ]
+[v _duracion `i ~T0 @X0 1 r1 ]
+[v _tfrec `f ~T0 @X0 1 r2 ]
+[f ]
+"41
+[; ;../Practica5.X/main.c: 41:      duracion = duracion/tfrec;
+[e = _duracion -> / -> _duracion `f _tfrec `i ]
+"42
+[; ;../Practica5.X/main.c: 42:      tfrec = 255-((tfrec/2)/(.0002*128));
+[e = _tfrec -> - -> -> 255 `i `d / -> / _tfrec -> -> 2 `i `f `d * .0.0002 -> -> 128 `i `d `f ]
+"44
+[; ;../Practica5.X/main.c: 44:        for(b=0;b<duracion;b++){
+{
+[e = _b -> 0 `i ]
+[e $U 384  ]
+[e :U 381 ]
+{
+"45
+[; ;../Practica5.X/main.c: 45:             PORTAbits.RA0 = 0;
+[e = . . _PORTAbits 0 0 -> -> 0 `i `uc ]
+"46
+[; ;../Practica5.X/main.c: 46:            TMR0 = tfrec;
+[e = _TMR0 -> _tfrec `us ]
+"47
+[; ;../Practica5.X/main.c: 47:            while(INTCONbits.TMR0IF==0);
+[e $U 385  ]
+[e :U 386 ]
+[e :U 385 ]
+[e $ == -> . . _INTCONbits 0 2 `i -> 0 `i 386  ]
+[e :U 387 ]
+"48
+[; ;../Practica5.X/main.c: 48:            INTCONbits.TMR0IF=0;
+[e = . . _INTCONbits 0 2 -> -> 0 `i `uc ]
+"50
+[; ;../Practica5.X/main.c: 50:         PORTAbits.RA0=0;
+[e = . . _PORTAbits 0 0 -> -> 0 `i `uc ]
+"51
+[; ;../Practica5.X/main.c: 51:          TMR0 = tfrec;
+[e = _TMR0 -> _tfrec `us ]
+"52
+[; ;../Practica5.X/main.c: 52:          while(INTCONbits.TMR0IF==0);
+[e $U 388  ]
+[e :U 389 ]
+[e :U 388 ]
+[e $ == -> . . _INTCONbits 0 2 `i -> 0 `i 389  ]
+[e :U 390 ]
+"53
+[; ;../Practica5.X/main.c: 53:          INTCONbits.TMR0IF=0;
+[e = . . _INTCONbits 0 2 -> -> 0 `i `uc ]
+"54
+[; ;../Practica5.X/main.c: 54: }
+}
+[e ++ _b -> 1 `i ]
+[e :U 384 ]
+[e $ < _b _duracion 381  ]
+[e :U 382 ]
+}
+"55
+[; ;../Practica5.X/main.c: 55:  }
+[e :UE 380 ]
+}
+"60
+[; ;../Practica5.X/main.c: 60:  void confT0(){
+[v _confT0 `(v ~T0 @X0 1 ef ]
+{
+[e :U _confT0 ]
+[f ]
+"62
+[; ;../Practica5.X/main.c: 62:     T0CONbits.TMR0ON = 1;
+[e = . . _T0CONbits 0 5 -> -> 1 `i `uc ]
+"63
+[; ;../Practica5.X/main.c: 63:       T0CONbits.T08BIT = 1;
+[e = . . _T0CONbits 0 4 -> -> 1 `i `uc ]
+"64
+[; ;../Practica5.X/main.c: 64:       T0CONbits.T0CS = 0;
+[e = . . _T0CONbits 0 3 -> -> 0 `i `uc ]
+"65
+[; ;../Practica5.X/main.c: 65:       T0CONbits.T0SE = 0;
+[e = . . _T0CONbits 0 2 -> -> 0 `i `uc ]
+"66
+[; ;../Practica5.X/main.c: 66:       T0CONbits.PSA = 0;
+[e = . . _T0CONbits 0 1 -> -> 0 `i `uc ]
+"67
+[; ;../Practica5.X/main.c: 67:       T0CONbits.T0PS = 0b110;
+[e = . . _T0CONbits 0 0 -> -> 6 `i `uc ]
+"69
+[; ;../Practica5.X/main.c: 69:       INTCONbits.TMR0IE = 1;
+[e = . . _INTCONbits 0 5 -> -> 1 `i `uc ]
+"72
+[; ;../Practica5.X/main.c: 72:  }
+[e :UE 391 ]
+}
+"75
+[; ;../Practica5.X/main.c: 75:  void cancion1(){
+[v _cancion1 `(v ~T0 @X0 1 ef ]
+{
+[e :U _cancion1 ]
+[f ]
+"77
+[; ;../Practica5.X/main.c: 77:      tocar_nota(500,3.034);
+[e ( _tocar_nota (2 , -> 500 `i -> .3.034 `f ]
+"78
+[; ;../Practica5.X/main.c: 78:       tocar_nota(500,3.034);
+[e ( _tocar_nota (2 , -> 500 `i -> .3.034 `f ]
+"79
+[; ;../Practica5.X/main.c: 79:       tocar_nota(500,3.034);
+[e ( _tocar_nota (2 , -> 500 `i -> .3.034 `f ]
+"81
+[; ;../Practica5.X/main.c: 81:        tocar_nota(375,3.82);
+[e ( _tocar_nota (2 , -> 375 `i -> .3.82 `f ]
+"82
+[; ;../Practica5.X/main.c: 82:         tocar_nota(125,2.551);
+[e ( _tocar_nota (2 , -> 125 `i -> .2.551 `f ]
+"84
+[; ;../Practica5.X/main.c: 84:         tocar_nota(500,3.034);
+[e ( _tocar_nota (2 , -> 500 `i -> .3.034 `f ]
+"86
+[; ;../Practica5.X/main.c: 86:        tocar_nota(375,3.82);
+[e ( _tocar_nota (2 , -> 375 `i -> .3.82 `f ]
+"87
+[; ;../Practica5.X/main.c: 87:         tocar_nota(125,2.551);
+[e ( _tocar_nota (2 , -> 125 `i -> .2.551 `f ]
+"89
+[; ;../Practica5.X/main.c: 89:         tocar_nota(1000,3.034);
+[e ( _tocar_nota (2 , -> 1000 `i -> .3.034 `f ]
+"91
+[; ;../Practica5.X/main.c: 91:         tocar_nota(500,2.028);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.028 `f ]
+"92
+[; ;../Practica5.X/main.c: 92:         tocar_nota(500,2.028);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.028 `f ]
+"93
+[; ;../Practica5.X/main.c: 93:         tocar_nota(500,2.028);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.028 `f ]
+"95
+[; ;../Practica5.X/main.c: 95:         tocar_nota(375,1.911);
+[e ( _tocar_nota (2 , -> 375 `i -> .1.911 `f ]
+"96
+[; ;../Practica5.X/main.c: 96:         tocar_nota(125,2.551);
+[e ( _tocar_nota (2 , -> 125 `i -> .2.551 `f ]
+"98
+[; ;../Practica5.X/main.c: 98:         tocar_nota(500,3.61);
+[e ( _tocar_nota (2 , -> 500 `i -> .3.61 `f ]
+"100
+[; ;../Practica5.X/main.c: 100:          tocar_nota(375,3.82);
+[e ( _tocar_nota (2 , -> 375 `i -> .3.82 `f ]
+"101
+[; ;../Practica5.X/main.c: 101:         tocar_nota(125,2.551);
+[e ( _tocar_nota (2 , -> 125 `i -> .2.551 `f ]
+"103
+[; ;../Practica5.X/main.c: 103:         tocar_nota(1000,3.034);
+[e ( _tocar_nota (2 , -> 1000 `i -> .3.034 `f ]
+"105
+[; ;../Practica5.X/main.c: 105:         tocar_nota(500,1.517);
+[e ( _tocar_nota (2 , -> 500 `i -> .1.517 `f ]
+"106
+[; ;../Practica5.X/main.c: 106:         tocar_nota(375,3.034);
+[e ( _tocar_nota (2 , -> 375 `i -> .3.034 `f ]
+"107
+[; ;../Practica5.X/main.c: 107:         tocar_nota(125,3.034);
+[e ( _tocar_nota (2 , -> 125 `i -> .3.034 `f ]
+"108
+[; ;../Practica5.X/main.c: 108:         tocar_nota(500,1.517);
+[e ( _tocar_nota (2 , -> 500 `i -> .1.517 `f ]
+"110
+[; ;../Practica5.X/main.c: 110:          tocar_nota(375,1.607);
+[e ( _tocar_nota (2 , -> 375 `i -> .1.607 `f ]
+"111
+[; ;../Practica5.X/main.c: 111:         tocar_nota(125,1.703);
+[e ( _tocar_nota (2 , -> 125 `i -> .1.703 `f ]
+"113
+[; ;../Practica5.X/main.c: 113:          tocar_nota(125,1.804);
+[e ( _tocar_nota (2 , -> 125 `i -> .1.804 `f ]
+"114
+[; ;../Practica5.X/main.c: 114:           tocar_nota(125,1.911);
+[e ( _tocar_nota (2 , -> 125 `i -> .1.911 `f ]
+"115
+[; ;../Practica5.X/main.c: 115:           tocar_nota(300,1.804);
+[e ( _tocar_nota (2 , -> 300 `i -> .1.804 `f ]
+"117
+[; ;../Practica5.X/main.c: 117:           silencio(100,3.822);
+[e ( _silencio (2 , -> 100 `i -> .3.822 `f ]
+"118
+[; ;../Practica5.X/main.c: 118:           tocar_nota(300,2.863);
+[e ( _tocar_nota (2 , -> 300 `i -> .2.863 `f ]
+"119
+[; ;../Practica5.X/main.c: 119:           tocar_nota(500,2.145);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.145 `f ]
+"121
+[; ;../Practica5.X/main.c: 121:           tocar_nota(375,2.273);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.273 `f ]
+"122
+[; ;../Practica5.X/main.c: 122:         tocar_nota(125,2.408);
+[e ( _tocar_nota (2 , -> 125 `i -> .2.408 `f ]
+"124
+[; ;../Practica5.X/main.c: 124:         tocar_nota(125,2.551);
+[e ( _tocar_nota (2 , -> 125 `i -> .2.551 `f ]
+"125
+[; ;../Practica5.X/main.c: 125:         tocar_nota(125,2.703);
+[e ( _tocar_nota (2 , -> 125 `i -> .2.703 `f ]
+"126
+[; ;../Practica5.X/main.c: 126:         tocar_nota(300,2.551);
+[e ( _tocar_nota (2 , -> 300 `i -> .2.551 `f ]
+"128
+[; ;../Practica5.X/main.c: 128:         silencio(100,3.822);
+[e ( _silencio (2 , -> 100 `i -> .3.822 `f ]
+"129
+[; ;../Practica5.X/main.c: 129:         tocar_nota(300,3.822);
+[e ( _tocar_nota (2 , -> 300 `i -> .3.822 `f ]
+"130
+[; ;../Practica5.X/main.c: 130:         tocar_nota(500,3.608);
+[e ( _tocar_nota (2 , -> 500 `i -> .3.608 `f ]
+"131
+[; ;../Practica5.X/main.c: 131:          tocar_nota(375,3.822);
+[e ( _tocar_nota (2 , -> 375 `i -> .3.822 `f ]
+"132
+[; ;../Practica5.X/main.c: 132:         tocar_nota(125,2.551);
+[e ( _tocar_nota (2 , -> 125 `i -> .2.551 `f ]
+"134
+[; ;../Practica5.X/main.c: 134:         tocar_nota(500,3.034);
+[e ( _tocar_nota (2 , -> 500 `i -> .3.034 `f ]
+"135
+[; ;../Practica5.X/main.c: 135:         tocar_nota(375,3.822);
+[e ( _tocar_nota (2 , -> 375 `i -> .3.822 `f ]
+"136
+[; ;../Practica5.X/main.c: 136:         tocar_nota(125,2.551);
+[e ( _tocar_nota (2 , -> 125 `i -> .2.551 `f ]
+"137
+[; ;../Practica5.X/main.c: 137:         tocar_nota(2500,3.034);
+[e ( _tocar_nota (2 , -> 2500 `i -> .3.034 `f ]
+"138
+[; ;../Practica5.X/main.c: 138:         silencio(1000,3.822);
+[e ( _silencio (2 , -> 1000 `i -> .3.822 `f ]
+"139
+[; ;../Practica5.X/main.c: 139:  }
+[e :UE 392 ]
+}
+"141
+[; ;../Practica5.X/main.c: 141: void cancion2(){
+[v _cancion2 `(v ~T0 @X0 1 ef ]
+{
+[e :U _cancion2 ]
+[f ]
+"144
+[; ;../Practica5.X/main.c: 144:   tocar_nota(150,1.51);
+[e ( _tocar_nota (2 , -> 150 `i -> .1.51 `f ]
+"145
+[; ;../Practica5.X/main.c: 145:   tocar_nota(150,1.51);
+[e ( _tocar_nota (2 , -> 150 `i -> .1.51 `f ]
+"146
+[; ;../Practica5.X/main.c: 146:   tocar_nota(150,1.51);
+[e ( _tocar_nota (2 , -> 150 `i -> .1.51 `f ]
+"147
+[; ;../Practica5.X/main.c: 147:    tocar_nota(150,1.91);
+[e ( _tocar_nota (2 , -> 150 `i -> .1.91 `f ]
+"148
+[; ;../Practica5.X/main.c: 148:    tocar_nota(300,1.51);
+[e ( _tocar_nota (2 , -> 300 `i -> .1.51 `f ]
+"149
+[; ;../Practica5.X/main.c: 149:    tocar_nota(300,1.276);
+[e ( _tocar_nota (2 , -> 300 `i -> .1.276 `f ]
+"151
+[; ;../Practica5.X/main.c: 151:   tocar_nota(300,1.91);
+[e ( _tocar_nota (2 , -> 300 `i -> .1.91 `f ]
+"154
+[; ;../Practica5.X/main.c: 154:    tocar_nota(300,2.551);
+[e ( _tocar_nota (2 , -> 300 `i -> .2.551 `f ]
+"156
+[; ;../Practica5.X/main.c: 156:    tocar_nota(300,3.034);
+[e ( _tocar_nota (2 , -> 300 `i -> .3.034 `f ]
+"158
+[; ;../Practica5.X/main.c: 158:    tocar_nota(300,2.551);
+[e ( _tocar_nota (2 , -> 300 `i -> .2.551 `f ]
+"160
+[; ;../Practica5.X/main.c: 160:    tocar_nota(300,2.025);
+[e ( _tocar_nota (2 , -> 300 `i -> .2.025 `f ]
+"162
+[; ;../Practica5.X/main.c: 162:    tocar_nota(300,2.145);
+[e ( _tocar_nota (2 , -> 300 `i -> .2.145 `f ]
+"164
+[; ;../Practica5.X/main.c: 164:    tocar_nota(300,2.273);
+[e ( _tocar_nota (2 , -> 300 `i -> .2.273 `f ]
+"166
+[; ;../Practica5.X/main.c: 166:    tocar_nota(300,2.551);
+[e ( _tocar_nota (2 , -> 300 `i -> .2.551 `f ]
+"169
+[; ;../Practica5.X/main.c: 169:    tocar_nota(300,1.51);
+[e ( _tocar_nota (2 , -> 300 `i -> .1.51 `f ]
+"173
+[; ;../Practica5.X/main.c: 173:    tocar_nota(300,1.27);
+[e ( _tocar_nota (2 , -> 300 `i -> .1.27 `f ]
+"174
+[; ;../Practica5.X/main.c: 174:    tocar_nota(300,1.13);
+[e ( _tocar_nota (2 , -> 300 `i -> .1.13 `f ]
+"176
+[; ;../Practica5.X/main.c: 176:       tocar_nota(150,1.43);
+[e ( _tocar_nota (2 , -> 150 `i -> .1.43 `f ]
+"177
+[; ;../Practica5.X/main.c: 177:    tocar_nota(150,1.27);
+[e ( _tocar_nota (2 , -> 150 `i -> .1.27 `f ]
+"179
+[; ;../Practica5.X/main.c: 179:       tocar_nota(300,1.51);
+[e ( _tocar_nota (2 , -> 300 `i -> .1.51 `f ]
+"182
+[; ;../Practica5.X/main.c: 182:    tocar_nota(150,1.91);
+[e ( _tocar_nota (2 , -> 150 `i -> .1.91 `f ]
+"184
+[; ;../Practica5.X/main.c: 184:    tocar_nota(150,1.70);
+[e ( _tocar_nota (2 , -> 150 `i -> .1.70 `f ]
+"186
+[; ;../Practica5.X/main.c: 186:    tocar_nota(300,2.551);
+[e ( _tocar_nota (2 , -> 300 `i -> .2.551 `f ]
+"190
+[; ;../Practica5.X/main.c: 190:    tocar_nota(375,3.82);
+[e ( _tocar_nota (2 , -> 375 `i -> .3.82 `f ]
+"192
+[; ;../Practica5.X/main.c: 192:    tocar_nota(125,3.034);
+[e ( _tocar_nota (2 , -> 125 `i -> .3.034 `f ]
+"193
+[; ;../Practica5.X/main.c: 193:    tocar_nota(500,2.551);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.551 `f ]
+"195
+[; ;../Practica5.X/main.c: 195:    tocar_nota(375,3.82);
+[e ( _tocar_nota (2 , -> 375 `i -> .3.82 `f ]
+"197
+[; ;../Practica5.X/main.c: 197:    tocar_nota(125,2.551);
+[e ( _tocar_nota (2 , -> 125 `i -> .2.551 `f ]
+"199
+[; ;../Practica5.X/main.c: 199:    tocar_nota(1000,2.863);
+[e ( _tocar_nota (2 , -> 1000 `i -> .2.863 `f ]
+"201
+[; ;../Practica5.X/main.c: 201:    tocar_nota(500,2.273);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.273 `f ]
+"203
+[; ;../Practica5.X/main.c: 203:    tocar_nota(500,2.025);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.025 `f ]
+"205
+[; ;../Practica5.X/main.c: 205:    tocar_nota(500,2.145);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.145 `f ]
+"207
+[; ;../Practica5.X/main.c: 207:    tocar_nota(375,2.273);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.273 `f ]
+"209
+[; ;../Practica5.X/main.c: 209:    tocar_nota(125,2.551);
+[e ( _tocar_nota (2 , -> 125 `i -> .2.551 `f ]
+"211
+[; ;../Practica5.X/main.c: 211:    tocar_nota(500,3.034);
+[e ( _tocar_nota (2 , -> 500 `i -> .3.034 `f ]
+"213
+[; ;../Practica5.X/main.c: 213:     tocar_nota(375,2.551);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.551 `f ]
+"215
+[; ;../Practica5.X/main.c: 215:    tocar_nota(125,2.551);
+[e ( _tocar_nota (2 , -> 125 `i -> .2.551 `f ]
+"217
+[; ;../Practica5.X/main.c: 217:    tocar_nota(1000,3.034);
+[e ( _tocar_nota (2 , -> 1000 `i -> .3.034 `f ]
+"218
+[; ;../Practica5.X/main.c: 218:    tocar_nota(500,2.551);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.551 `f ]
+"220
+[; ;../Practica5.X/main.c: 220:    tocar_nota(375,3.034);
+[e ( _tocar_nota (2 , -> 375 `i -> .3.034 `f ]
+"222
+[; ;../Practica5.X/main.c: 222:    tocar_nota(125,3.82);
+[e ( _tocar_nota (2 , -> 125 `i -> .3.82 `f ]
+"224
+[; ;../Practica5.X/main.c: 224:    tocar_nota(500,3.405);
+[e ( _tocar_nota (2 , -> 500 `i -> .3.405 `f ]
+"225
+[; ;../Practica5.X/main.c: 225:    tocar_nota(375,2.025);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.025 `f ]
+"226
+[; ;../Practica5.X/main.c: 226:    tocar_nota(125,2.551);
+[e ( _tocar_nota (2 , -> 125 `i -> .2.551 `f ]
+"228
+[; ;../Practica5.X/main.c: 228:    tocar_nota(500,3.034);
+[e ( _tocar_nota (2 , -> 500 `i -> .3.034 `f ]
+"230
+[; ;../Practica5.X/main.c: 230:    tocar_nota(375,2.551);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.551 `f ]
+"232
+[; ;../Practica5.X/main.c: 232:    tocar_nota(125,2.551);
+[e ( _tocar_nota (2 , -> 125 `i -> .2.551 `f ]
+"234
+[; ;../Practica5.X/main.c: 234:    tocar_nota(1000,3.034);
+[e ( _tocar_nota (2 , -> 1000 `i -> .3.034 `f ]
+"235
+[; ;../Practica5.X/main.c: 235:    tocar_nota(500,2.551);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.551 `f ]
+"237
+[; ;../Practica5.X/main.c: 237:    tocar_nota(375,3.034);
+[e ( _tocar_nota (2 , -> 375 `i -> .3.034 `f ]
+"239
+[; ;../Practica5.X/main.c: 239:    tocar_nota(125,3.82);
+[e ( _tocar_nota (2 , -> 125 `i -> .3.82 `f ]
+"241
+[; ;../Practica5.X/main.c: 241:    tocar_nota(500,3.405);
+[e ( _tocar_nota (2 , -> 500 `i -> .3.405 `f ]
+"242
+[; ;../Practica5.X/main.c: 242:    tocar_nota(375,2.025);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.025 `f ]
+"243
+[; ;../Practica5.X/main.c: 243:    tocar_nota(375,2.551);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.551 `f ]
+"245
+[; ;../Practica5.X/main.c: 245:    tocar_nota(125,2.551);
+[e ( _tocar_nota (2 , -> 125 `i -> .2.551 `f ]
+"247
+[; ;../Practica5.X/main.c: 247:    tocar_nota(1000,3.034);
+[e ( _tocar_nota (2 , -> 1000 `i -> .3.034 `f ]
+"248
+[; ;../Practica5.X/main.c: 248:    tocar_nota(500,2.551);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.551 `f ]
+"250
+[; ;../Practica5.X/main.c: 250:    tocar_nota(375,3.034);
+[e ( _tocar_nota (2 , -> 375 `i -> .3.034 `f ]
+"252
+[; ;../Practica5.X/main.c: 252:    tocar_nota(125,3.82);
+[e ( _tocar_nota (2 , -> 125 `i -> .3.82 `f ]
+"254
+[; ;../Practica5.X/main.c: 254:    tocar_nota(500,3.405);
+[e ( _tocar_nota (2 , -> 500 `i -> .3.405 `f ]
+"255
+[; ;../Practica5.X/main.c: 255:    tocar_nota(375,2.025);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.025 `f ]
+"257
+[; ;../Practica5.X/main.c: 257:    silencio(1000,3.822);
+[e ( _silencio (2 , -> 1000 `i -> .3.822 `f ]
+"261
+[; ;../Practica5.X/main.c: 261:  }
+[e :UE 393 ]
+}
+"265
+[; ;../Practica5.X/main.c: 265:   void cancion3(){
+[v _cancion3 `(v ~T0 @X0 1 ef ]
+{
+[e :U _cancion3 ]
+[f ]
+"267
+[; ;../Practica5.X/main.c: 267:       tocar_nota(500,2.70);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.70 `f ]
+"268
+[; ;../Practica5.X/main.c: 268:  tocar_nota(500,2.70);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.70 `f ]
+"269
+[; ;../Practica5.X/main.c: 269: tocar_nota(500,2.70);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.70 `f ]
+"270
+[; ;../Practica5.X/main.c: 270: tocar_nota(500,2.70);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.70 `f ]
+"271
+[; ;../Practica5.X/main.c: 271: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"272
+[; ;../Practica5.X/main.c: 272: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"273
+[; ;../Practica5.X/main.c: 273: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"274
+[; ;../Practica5.X/main.c: 274: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"275
+[; ;../Practica5.X/main.c: 275: tocar_nota(500,2.70);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.70 `f ]
+"276
+[; ;../Practica5.X/main.c: 276: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"277
+[; ;../Practica5.X/main.c: 277: tocar_nota(125,3.40);
+[e ( _tocar_nota (2 , -> 125 `i -> .3.40 `f ]
+"278
+[; ;../Practica5.X/main.c: 278: tocar_nota(125,3.40);
+[e ( _tocar_nota (2 , -> 125 `i -> .3.40 `f ]
+"279
+[; ;../Practica5.X/main.c: 279: tocar_nota(125,3.40);
+[e ( _tocar_nota (2 , -> 125 `i -> .3.40 `f ]
+"280
+[; ;../Practica5.X/main.c: 280: tocar_nota(375,3.03);
+[e ( _tocar_nota (2 , -> 375 `i -> .3.03 `f ]
+"281
+[; ;../Practica5.X/main.c: 281: tocar_nota(375,3.03);
+[e ( _tocar_nota (2 , -> 375 `i -> .3.03 `f ]
+"282
+[; ;../Practica5.X/main.c: 282: tocar_nota(500,2.70);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.70 `f ]
+"283
+[; ;../Practica5.X/main.c: 283: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"284
+[; ;../Practica5.X/main.c: 284: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"285
+[; ;../Practica5.X/main.c: 285: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"286
+[; ;../Practica5.X/main.c: 286: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"287
+[; ;../Practica5.X/main.c: 287: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"288
+[; ;../Practica5.X/main.c: 288:  tocar_nota(375,3.03);
+[e ( _tocar_nota (2 , -> 375 `i -> .3.03 `f ]
+"289
+[; ;../Practica5.X/main.c: 289: tocar_nota(125,2.27);
+[e ( _tocar_nota (2 , -> 125 `i -> .2.27 `f ]
+"290
+[; ;../Practica5.X/main.c: 290:   tocar_nota(1000,2.86);
+[e ( _tocar_nota (2 , -> 1000 `i -> .2.86 `f ]
+"291
+[; ;../Practica5.X/main.c: 291: tocar_nota(125,3.82);
+[e ( _tocar_nota (2 , -> 125 `i -> .3.82 `f ]
+"292
+[; ;../Practica5.X/main.c: 292: tocar_nota(375,3.03);
+[e ( _tocar_nota (2 , -> 375 `i -> .3.03 `f ]
+"293
+[; ;../Practica5.X/main.c: 293: tocar_nota(375,3.03);
+[e ( _tocar_nota (2 , -> 375 `i -> .3.03 `f ]
+"294
+[; ;../Practica5.X/main.c: 294: tocar_nota(500,2.70);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.70 `f ]
+"295
+[; ;../Practica5.X/main.c: 295:  tocar_nota(500,2.70);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.70 `f ]
+"296
+[; ;../Practica5.X/main.c: 296: tocar_nota(500,2.70);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.70 `f ]
+"297
+[; ;../Practica5.X/main.c: 297:  tocar_nota(500,2.70);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.70 `f ]
+"298
+[; ;../Practica5.X/main.c: 298: tocar_nota(500,2.70);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.70 `f ]
+"299
+[; ;../Practica5.X/main.c: 299: tocar_nota(500,2.70);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.70 `f ]
+"300
+[; ;../Practica5.X/main.c: 300: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"301
+[; ;../Practica5.X/main.c: 301: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"302
+[; ;../Practica5.X/main.c: 302: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"303
+[; ;../Practica5.X/main.c: 303: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"304
+[; ;../Practica5.X/main.c: 304: tocar_nota(500,2.70);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.70 `f ]
+"305
+[; ;../Practica5.X/main.c: 305: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"306
+[; ;../Practica5.X/main.c: 306: tocar_nota(125,3.40);
+[e ( _tocar_nota (2 , -> 125 `i -> .3.40 `f ]
+"307
+[; ;../Practica5.X/main.c: 307: tocar_nota(125,3.40);
+[e ( _tocar_nota (2 , -> 125 `i -> .3.40 `f ]
+"308
+[; ;../Practica5.X/main.c: 308: tocar_nota(125,3.40);
+[e ( _tocar_nota (2 , -> 125 `i -> .3.40 `f ]
+"309
+[; ;../Practica5.X/main.c: 309: tocar_nota(375,3.03);
+[e ( _tocar_nota (2 , -> 375 `i -> .3.03 `f ]
+"310
+[; ;../Practica5.X/main.c: 310: tocar_nota(375,3.03);
+[e ( _tocar_nota (2 , -> 375 `i -> .3.03 `f ]
+"311
+[; ;../Practica5.X/main.c: 311: tocar_nota(500,2.70);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.70 `f ]
+"312
+[; ;../Practica5.X/main.c: 312: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"313
+[; ;../Practica5.X/main.c: 313: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"314
+[; ;../Practica5.X/main.c: 314: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"315
+[; ;../Practica5.X/main.c: 315: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"316
+[; ;../Practica5.X/main.c: 316: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"317
+[; ;../Practica5.X/main.c: 317:  tocar_nota(375,3.03);
+[e ( _tocar_nota (2 , -> 375 `i -> .3.03 `f ]
+"318
+[; ;../Practica5.X/main.c: 318: tocar_nota(125,2.27);
+[e ( _tocar_nota (2 , -> 125 `i -> .2.27 `f ]
+"319
+[; ;../Practica5.X/main.c: 319:   tocar_nota(1000,2.86);
+[e ( _tocar_nota (2 , -> 1000 `i -> .2.86 `f ]
+"320
+[; ;../Practica5.X/main.c: 320: tocar_nota(125,3.82);
+[e ( _tocar_nota (2 , -> 125 `i -> .3.82 `f ]
+"321
+[; ;../Practica5.X/main.c: 321: tocar_nota(375,3.03);
+[e ( _tocar_nota (2 , -> 375 `i -> .3.03 `f ]
+"322
+[; ;../Practica5.X/main.c: 322: tocar_nota(375,3.03);
+[e ( _tocar_nota (2 , -> 375 `i -> .3.03 `f ]
+"323
+[; ;../Practica5.X/main.c: 323: tocar_nota(500,2.70);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.70 `f ]
+"324
+[; ;../Practica5.X/main.c: 324:  tocar_nota(500,2.70);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.70 `f ]
+"325
+[; ;../Practica5.X/main.c: 325: tocar_nota(500,2.70);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.70 `f ]
+"326
+[; ;../Practica5.X/main.c: 326:  tocar_nota(500,2.70);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.70 `f ]
+"327
+[; ;../Practica5.X/main.c: 327: tocar_nota(500,2.70);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.70 `f ]
+"328
+[; ;../Practica5.X/main.c: 328: tocar_nota(500,2.70);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.70 `f ]
+"329
+[; ;../Practica5.X/main.c: 329: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"330
+[; ;../Practica5.X/main.c: 330: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"331
+[; ;../Practica5.X/main.c: 331: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"332
+[; ;../Practica5.X/main.c: 332: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"333
+[; ;../Practica5.X/main.c: 333: tocar_nota(500,2.70);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.70 `f ]
+"334
+[; ;../Practica5.X/main.c: 334: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"335
+[; ;../Practica5.X/main.c: 335: tocar_nota(125,3.40);
+[e ( _tocar_nota (2 , -> 125 `i -> .3.40 `f ]
+"336
+[; ;../Practica5.X/main.c: 336: tocar_nota(125,3.40);
+[e ( _tocar_nota (2 , -> 125 `i -> .3.40 `f ]
+"337
+[; ;../Practica5.X/main.c: 337: tocar_nota(125,3.40);
+[e ( _tocar_nota (2 , -> 125 `i -> .3.40 `f ]
+"338
+[; ;../Practica5.X/main.c: 338: tocar_nota(375,3.03);
+[e ( _tocar_nota (2 , -> 375 `i -> .3.03 `f ]
+"339
+[; ;../Practica5.X/main.c: 339: tocar_nota(375,3.03);
+[e ( _tocar_nota (2 , -> 375 `i -> .3.03 `f ]
+"340
+[; ;../Practica5.X/main.c: 340: tocar_nota(500,2.70);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.70 `f ]
+"341
+[; ;../Practica5.X/main.c: 341: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"342
+[; ;../Practica5.X/main.c: 342: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"343
+[; ;../Practica5.X/main.c: 343: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"344
+[; ;../Practica5.X/main.c: 344: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"345
+[; ;../Practica5.X/main.c: 345: tocar_nota(375,2.73);
+[e ( _tocar_nota (2 , -> 375 `i -> .2.73 `f ]
+"346
+[; ;../Practica5.X/main.c: 346:  tocar_nota(375,3.03);
+[e ( _tocar_nota (2 , -> 375 `i -> .3.03 `f ]
+"347
+[; ;../Practica5.X/main.c: 347: tocar_nota(125,2.27);
+[e ( _tocar_nota (2 , -> 125 `i -> .2.27 `f ]
+"348
+[; ;../Practica5.X/main.c: 348:   tocar_nota(1000,2.86);
+[e ( _tocar_nota (2 , -> 1000 `i -> .2.86 `f ]
+"349
+[; ;../Practica5.X/main.c: 349: tocar_nota(125,3.82);
+[e ( _tocar_nota (2 , -> 125 `i -> .3.82 `f ]
+"350
+[; ;../Practica5.X/main.c: 350: tocar_nota(375,3.03);
+[e ( _tocar_nota (2 , -> 375 `i -> .3.03 `f ]
+"351
+[; ;../Practica5.X/main.c: 351: tocar_nota(375,3.03);
+[e ( _tocar_nota (2 , -> 375 `i -> .3.03 `f ]
+"352
+[; ;../Practica5.X/main.c: 352: tocar_nota(500,2.70);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.70 `f ]
+"353
+[; ;../Practica5.X/main.c: 353:  tocar_nota(500,2.70);
+[e ( _tocar_nota (2 , -> 500 `i -> .2.70 `f ]
+"354
+[; ;../Practica5.X/main.c: 354:    silencio(1000,3.822);
+[e ( _silencio (2 , -> 1000 `i -> .3.822 `f ]
+"355
+[; ;../Practica5.X/main.c: 355:  }
+[e :UE 394 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"357
+[; ;../Practica5.X/main.c: 357: void main(void) {
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"359
+[; ;../Practica5.X/main.c: 359:     ADCON1 = 15;
+[e = _ADCON1 -> -> 15 `i `uc ]
+"361
+[; ;../Practica5.X/main.c: 361:     TRISA = 0b00010000;
+[e = _TRISA -> -> 16 `i `uc ]
+"362
+[; ;../Practica5.X/main.c: 362:      TRISB = 0b11111111;
+[e = _TRISB -> -> 255 `i `uc ]
+"363
+[; ;../Practica5.X/main.c: 363:     confT0();
+[e ( _confT0 ..  ]
+"365
+[; ;../Practica5.X/main.c: 365: while (1) {
+[e :U 397 ]
+{
+"367
+[; ;../Practica5.X/main.c: 367:      if (PORTBbits.RB0 == 1) {
+[e $ ! == -> . . _PORTBbits 0 0 `i -> 1 `i 399  ]
+{
+"368
+[; ;../Practica5.X/main.c: 368:          while(PORTBbits.RB0==1);
+[e $U 400  ]
+[e :U 401 ]
+[e :U 400 ]
+[e $ == -> . . _PORTBbits 0 0 `i -> 1 `i 401  ]
+[e :U 402 ]
+"369
+[; ;../Practica5.X/main.c: 369:                        cancion1();
+[e ( _cancion1 ..  ]
+"371
+[; ;../Practica5.X/main.c: 371:      }
+}
+[e :U 399 ]
+"372
+[; ;../Practica5.X/main.c: 372:      if (PORTBbits.RB1 == 1) {
+[e $ ! == -> . . _PORTBbits 0 1 `i -> 1 `i 403  ]
+{
+"373
+[; ;../Practica5.X/main.c: 373: while(PORTBbits.RB1==1);
+[e $U 404  ]
+[e :U 405 ]
+[e :U 404 ]
+[e $ == -> . . _PORTBbits 0 1 `i -> 1 `i 405  ]
+[e :U 406 ]
+"374
+[; ;../Practica5.X/main.c: 374:                        cancion2();
+[e ( _cancion2 ..  ]
+"376
+[; ;../Practica5.X/main.c: 376:      }
+}
+[e :U 403 ]
+"377
+[; ;../Practica5.X/main.c: 377:      if (PORTBbits.RB2 == 1) {
+[e $ ! == -> . . _PORTBbits 0 2 `i -> 1 `i 407  ]
+{
+"378
+[; ;../Practica5.X/main.c: 378:          while(PORTBbits.RB2==1);
+[e $U 408  ]
+[e :U 409 ]
+[e :U 408 ]
+[e $ == -> . . _PORTBbits 0 2 `i -> 1 `i 409  ]
+[e :U 410 ]
+"379
+[; ;../Practica5.X/main.c: 379:                        cancion3();
+[e ( _cancion3 ..  ]
+"381
+[; ;../Practica5.X/main.c: 381:      }
+}
+[e $U 411  ]
+"382
+[; ;../Practica5.X/main.c: 382:      else{
+[e :U 407 ]
+{
+"383
+[; ;../Practica5.X/main.c: 383:          PORTAbits.RA0 = 0;
+[e = . . _PORTAbits 0 0 -> -> 0 `i `uc ]
+"384
+[; ;../Practica5.X/main.c: 384:      }
+}
+[e :U 411 ]
+"386
+[; ;../Practica5.X/main.c: 386:   }
+}
+[e :U 396 ]
+[e $U 397  ]
+[e :U 398 ]
+"394
+[; ;../Practica5.X/main.c: 394: }
+[e :UE 395 ]
+}
