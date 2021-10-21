@@ -57,11 +57,11 @@
 
 void TMR2_Initialize(void)
 {
-    // T2CKPS 1:4; T2OUTPS 1:1; TMR2ON on; 
-    T2CON = 0x01;
+    // T2CKPS 1:4; T2OUTPS 1:1; TMR2ON off; 
+    T2CON = 0b00011011;
 
-    // PR2 24; 
-    PR2 = 0x18;
+    // PR2 0 (updated in main function); 
+    //PR2 = 0x0;
 
     // TMR2 0; 
     TMR2 = 0x00;
@@ -69,11 +69,11 @@ void TMR2_Initialize(void)
     // Clearing IF flag.
     PIR1bits.TMR2IF = 0;
     
-    //enable interrupt
+    //disable interrupt
     PIE1bits.TMR2IE = 1;
 
     // Start TMR2
-    TMR2_StartTimer();
+    //TMR2_StartTimer();
 }
 
 void TMR2_StartTimer(void)
@@ -123,7 +123,8 @@ bool TMR2_HasOverflowOccured(void)
 void TMR2_ISR(void)
 {
     // add your TMR2 interrupt custom code
-    
+    TMR2_WriteTimer(0);
+    LATBbits.LB0 =! LATBbits.LB0;
     
 }
 

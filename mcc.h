@@ -1,4 +1,4 @@
-/* Microchip Technology Inc. and its subsidiaries.  You may use this software 
+    /* Microchip Technology Inc. and its subsidiaries.  You may use this software 
  * and any derivatives exclusively with Microchip products. 
  * 
  * THIS SOFTWARE IS SUPPLIED BY MICROCHIP "AS IS".  NO WARRANTIES, WHETHER 
@@ -52,12 +52,7 @@
 #include "i2c_user.h"
 #include "keypad.h"
 
-#define _XTAL_FREQ  24000000ul
-
-//global variables of the ADC
-unsigned char ADC_Flag = 0;
-unsigned int  ADC_Value;
-
+#define _XTAL_FREQ  4000000ul
 
 // TODO Insert declarations or function prototypes (right here) to leverage 
 // live documentation
