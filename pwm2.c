@@ -11,7 +11,7 @@
     This is the generated driver implementation file for the CCP2 driver using MPLAB(c) Code Configurator
 
   @Description
-    This source file provides APIs for CCP2.
+    This source file provides implementations for driver APIs for CCP2.
     Generation Information :
         Product Revision  :  MPLAB(c) Code Configurator - 3.15.0
         Device            :  PIC18F4550
@@ -47,73 +47,42 @@
   Section: Included Files
 */
 
-#include "ccp2.h"
+
+#include "pwm2.h"
 #include "mcc.h"
 
 /**
-  Section: Capture Module APIs
+  Section: Macro Declarations
 */
 
-void CCP2_Initialize(void)
-{
-    // Set the CCP2 to the options selected in the User Interface
 
-    // CCP2M Falling edge; DC2B 0; 
+/**
+  Section: PWM Module APIs
+*/
+
+void PWM2_Initialize(void)
+{
+    // CCP2M PWM; DC2B 0; 
     CCP2CON = 0x0F;
-    // CCP2M Toggle; DC2B 0; 
-    //CCP2CON = 0x02;    
-
-    // CCPR2L 0; 
-    CCPR2L = 0x00;    
-
+    
+    // CCPR2L 12; 
+    //CCPR2L = 0x0C;
+    
     // CCPR2H 0; 
-    CCPR2H = 0x00;    
+    //CCPR2H = 0x00;
     
-    // Selecting Timer 1
-    T3CONbits.T3CCP1 = 0;
-    T3CONbits.T3CCP2 = 0;
-
-    // Clear the CCP2 interrupt flag
-    PIR2bits.CCP2IF = 0;
-
-    // Enable the CCP2 interrupt
-    PIE2bits.CCP2IE = 1;
 }
 
-void CCP2_CaptureISR(void)
+void PWM2_LoadDutyValue(uint16_t dutyValue)
 {
-    CCP_PERIOD_REG_T module;
-
+   // Writing to 8 MSBs of pwm duty cycle in CCPRL register
+    CCPR2L = ((dutyValue & 0x03FC)>>2);
     
-    
-    // Copy captured value.
-    module.ccpr2l = CCPR2L;
-    module.ccpr2h = CCPR2H;
-    
-    // Return 16bit captured value
-    CCP2_CallBack(module.ccpr2_16Bit);
+   // Writing to 2 LSBs of pwm duty cycle in CCPCON register
+    CCP2CON = (CCP2CON & 0xCF) | ((dutyValue & 0x0003)<<4);
 }
 
-void CCP2_CallBack(uint16_t capturedValue)
-{
-    // Add your code here
-}
-
-void CCP2_SetCompareCount(uint16_t compareCount)
-{
-    CCP_PERIOD_REG_T module;
-    
-    // Write the 16-bit compare value
-    module.ccpr2_16Bit = compareCount;
-    
-    CCPR2L = module.ccpr2l;
-    CCPR2H = module.ccpr2h;
-}
-
-void CCP2_CompareISR(void)
-{
-    
-}
 /**
  End of File
 */
+

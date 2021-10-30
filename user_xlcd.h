@@ -28,44 +28,13 @@
 
 // This is a guard condition so that contents of this file are not included
 // more than once.  
-#ifndef MCC_H
-#define	MCC_H
+#ifndef USER_XLCD_H
+#define	USER_XLCD_H
 
 #include <xc.h> // include processor files - each processor file is guarded.  
+//#define _XTAL_FREQ  4000000ul
 
-#include "pin_manager.h"
-#include <stdint.h>
-#include <stdbool.h>
-#include "interrupt_manager.h"
-#include "adc.h"
-#include "tmr0.h"
-#include "memory.h"
-#include "i2c1.h"
-#include "spi1.h"
-#include "eusart1.h"
-#include "tmr1.h"
-#include "user_xlcd.h"
-#include "pwm2.h"
-#include "tmr2.h"
-#include "ccp2.h"
-#include "tmr3.h"
-#include "i2c_user.h"
-#include "keypad.h"
+void XLCD_Initialize(void);
 
-#define _XTAL_FREQ  24000000ul
-
-//global variables of the ADC
-unsigned char ADC_Flag = 0;
-unsigned int  ADC_Value;
-int pwm_dc;
-
-// TODO Insert declarations or function prototypes (right here) to leverage 
-// live documentation
-
-void SYSTEM_Initialize(void);
- 
-
-void OSCILLATOR_Initialize(void);
-
-#endif	/* MCC_H */
+#endif	/* USER_XLCD_H */
 

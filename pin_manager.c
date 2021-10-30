@@ -5,14 +5,10 @@
 void PIN_MANAGER_Initialize(void)
 {
     //configure ports below this line
-    TRISBbits.TRISB0 = 0;
-
-    TRISBbits.TRISB7 = 1;
-    TRISBbits.TRISB6 = 1;
-    TRISBbits.TRISB5 = 1;
-    //TRISBbits.TRISB3 = 0;
-    //PORTA, PORTB and PORTE are digital
-    ADCON1bits.PCFG = 0xF; 
+    TRISAbits.TRISA0 = 1; //RA/0AN0 is an input
+    TRISCbits.RC1 = 0;
+    //RA0/AN0 is the only analog pi n
+    ADCON1bits.PCFG = 0xE; 
 }
 
 void PIN_MANAGER_IOC(void)

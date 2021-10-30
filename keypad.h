@@ -28,44 +28,71 @@
 
 // This is a guard condition so that contents of this file are not included
 // more than once.  
-#ifndef MCC_H
-#define	MCC_H
+#ifndef _KEYPAD_H
+#define	_KEYPAD_H
 
 #include <xc.h> // include processor files - each processor file is guarded.  
 
-#include "pin_manager.h"
-#include <stdint.h>
-#include <stdbool.h>
-#include "interrupt_manager.h"
-#include "adc.h"
-#include "tmr0.h"
-#include "memory.h"
-#include "i2c1.h"
-#include "spi1.h"
-#include "eusart1.h"
-#include "tmr1.h"
-#include "user_xlcd.h"
-#include "pwm2.h"
-#include "tmr2.h"
-#include "ccp2.h"
-#include "tmr3.h"
-#include "i2c_user.h"
-#include "keypad.h"
+// TODO Insert appropriate #include <>
 
-#define _XTAL_FREQ  24000000ul
+// TODO Insert C++ class definitions if appropriate
 
-//global variables of the ADC
-unsigned char ADC_Flag = 0;
-unsigned int  ADC_Value;
-int pwm_dc;
+// TODO Insert declarations
 
+// Comment a function and leverage automatic documentation with slash star star
+/**
+    <p><b>Function prototype:</b></p>
+  
+    <p><b>Summary:</b></p>
+
+    <p><b>Description:</b></p>
+
+    <p><b>Precondition:</b></p>
+
+    <p><b>Parameters:</b></p>
+
+    <p><b>Returns:</b></p>
+
+    <p><b>Example:</b></p>
+    <code>
+ 
+    </code>
+
+    <p><b>Remarks:</b></p>
+ */
 // TODO Insert declarations or function prototypes (right here) to leverage 
 // live documentation
+#define RB0_ PORTBbits.RB0
+#define RB1_ PORTBbits.RB1
+#define RB2_ PORTBbits.RB2
+#define RB3_ PORTBbits.RB3
+#define RB4_ PORTBbits.RB4
+#define RB5_ PORTBbits.RB5
+#define RB6_ PORTBbits.RB6
+#define RB7_ PORTBbits.RB7
 
-void SYSTEM_Initialize(void);
- 
+//delay in the keypad scan
+#define DELAY_KEY_ 5
 
-void OSCILLATOR_Initialize(void);
+unsigned char GetKey_hw(void);
 
-#endif	/* MCC_H */
+unsigned char GetKey_sim(void);
+
+unsigned char read_keypad_hw(void);
+
+unsigned char read_keypad_sim(void);
+
+
+#ifdef	__cplusplus
+extern "C" {
+#endif /* __cplusplus */
+
+    // TODO If C++ is being used, regular C code needs function names to have C 
+    // linkage so the functions can be used by the c code. 
+
+#ifdef	__cplusplus
+}
+#endif /* __cplusplus */
+
+#endif	/* _KEYPAD_H */
 

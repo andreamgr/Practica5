@@ -57,16 +57,14 @@
 
 void ADC_Initialize(void)
 {
-    // set the ADC to the options selected in the User Interface
-    
     // GO_nDONE stop; ADON enabled; CHS AN0; 
-    ADCON0 = 0x01;
+    ADCON0 = 0b00000001;
     
     // NVCFG VSS; PVCFG VDD; other bits defined in pin_manager 
     ADCON1bits.VCFG = 0x0;
     
-    // ADFM right; ACQT 20; ADCS FOSC/4; 
-    ADCON2 = 0xBC;
+    // ADFM right; ACQT 20; ADCS FOSC/32; 
+    ADCON2 = 0b10111010;
     
     // ADRESL 0; 
     ADRESL = 0x00;
@@ -131,7 +129,12 @@ adc_result_t ADC_GetConversion(adc_channel_t channel)
 
 void ADC_ISR(void)
 {
-    
+   //read ADC conversion value
+    ADC_Value = ADC_GetConversionResult();
+    pwm_dc = (125*1024)/(ADC_Value);
+    PWM2_LoadDutyValue(pwm_dc);
+    //set user's flag to continue processing in while loop
+    ADC_Flag = 1; 
     
 }
 /**

@@ -5,13 +5,13 @@
     Microchip Technology Inc.
 
   @File Name
-    ccp2.c
+    ccp2.h
 
   @Summary
     This is the generated driver implementation file for the CCP2 driver using MPLAB(c) Code Configurator
 
   @Description
-    This source file provides APIs for CCP2.
+    This header file provides implementations for driver APIs for CCP2.
     Generation Information :
         Product Revision  :  MPLAB(c) Code Configurator - 3.15.0
         Device            :  PIC18F4550
@@ -43,77 +43,95 @@
     TERMS.
 */
 
+#ifndef _PWM2_H
+#define _PWM2_H
+
 /**
   Section: Included Files
 */
 
-#include "ccp2.h"
-#include "mcc.h"
+#include <xc.h>
+#include <stdint.h>
+#include <stdbool.h>
+
+#ifdef __cplusplus  // Provide C++ Compatibility
+
+    extern "C" {
+
+#endif
 
 /**
-  Section: Capture Module APIs
+  Section: PWM Module APIs
 */
 
-void CCP2_Initialize(void)
-{
-    // Set the CCP2 to the options selected in the User Interface
+/**
+  @Summary
+    Initializes the CCP2
 
-    // CCP2M Falling edge; DC2B 0; 
-    CCP2CON = 0x0F;
-    // CCP2M Toggle; DC2B 0; 
-    //CCP2CON = 0x02;    
+  @Description
+    This routine initializes the CCP2 module.
+    This routine must be called before any other CCP2 routine is called.
+    This routine should only be called once during system initialization.
 
-    // CCPR2L 0; 
-    CCPR2L = 0x00;    
+  @Preconditions
+    None
 
-    // CCPR2H 0; 
-    CCPR2H = 0x00;    
+  @Param
+    None
+
+  @Returns
+    None
+
+  @Comment
     
-    // Selecting Timer 1
-    T3CONbits.T3CCP1 = 0;
-    T3CONbits.T3CCP2 = 0;
 
-    // Clear the CCP2 interrupt flag
-    PIR2bits.CCP2IF = 0;
+ @Example
+    <code>
+    uint16_t dutycycle;
 
-    // Enable the CCP2 interrupt
-    PIE2bits.CCP2IE = 1;
-}
+    PWM2_Initialize();
+	PWM2_LoadDutyValue(dutycycle);
+    </code>
+ */
+void PWM2_Initialize(void);
 
-void CCP2_CaptureISR(void)
-{
-    CCP_PERIOD_REG_T module;
+/**
+  @Summary
+    Loads 16-bit duty cycle.
 
-    
-    
-    // Copy captured value.
-    module.ccpr2l = CCPR2L;
-    module.ccpr2h = CCPR2H;
-    
-    // Return 16bit captured value
-    CCP2_CallBack(module.ccpr2_16Bit);
-}
+  @Description
+    This routine loads the 16 bit duty cycle value.
 
-void CCP2_CallBack(uint16_t capturedValue)
-{
-    // Add your code here
-}
+  @Preconditions
+    PWM2_Initialize() function should have been called
+	before calling this function.
 
-void CCP2_SetCompareCount(uint16_t compareCount)
-{
-    CCP_PERIOD_REG_T module;
-    
-    // Write the 16-bit compare value
-    module.ccpr2_16Bit = compareCount;
-    
-    CCPR2L = module.ccpr2l;
-    CCPR2H = module.ccpr2h;
-}
+  @Param
+    Pass 16bit duty cycle value.
 
-void CCP2_CompareISR(void)
-{
-    
-}
+  @Returns
+    None
+
+  @Example
+    <code>
+    uint16_t dutycycle;
+
+    PWM2_Initialize();
+    PWM2_LoadDutyValue(dutycycle);
+    </code>
+*/
+void PWM2_LoadDutyValue(uint16_t dutyValue);
+
+
+
+        
+#ifdef __cplusplus  // Provide C++ Compatibility
+
+    }
+
+#endif
+
+#endif	//PWM2_H
 /**
  End of File
 */
